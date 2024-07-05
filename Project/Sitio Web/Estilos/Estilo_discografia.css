@@ -1,0 +1,344 @@
+/*EStilo compartido por las paginas discografia y musica*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, section, footer, article, figure, figcaption, hgroup, aside {
+    display: block;
+}
+
+body {
+    background-image: url(EBMJ.jpg); /*Fondo de todas las paginas*/
+    text-align: justify-all;
+    margin-top: 2em;
+}
+
+#agrupar {
+    width: 1200px;
+    height: 1000px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+#seccion {
+	width: 100%;
+	float: center;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+#cabecera {
+    height: 100%;
+    border-radius: 1em;
+    margin: 10px;
+}
+
+#cabecera {
+    position: relative;
+    text-align: center;
+}
+
+#cabecera > .container {
+    padding: 1em 0 1em 0;
+    border-bottom: solid 2px #e5e5e5;
+    box-shadow: inset 0px -8px 0px 0px #CCCCCC, inset 0px -10px 0px 0px #CCCCCC;
+}
+
+/*Estilo del titulo principal*/
+#cabecera h1 { 
+    margin: 0;
+    margin-left: 85px;
+	position: relative;
+	text-align: center;
+	font-family: Cottonwood, Sanvito, Vegur, 'PT Sans';
+	font-style: italic;
+	font-size: 100px;
+	color: 	#48D1CC;
+	text-shadow: #B0E0E6 6px 6px 8px;
+}
+
+#cabecera h1 a {
+    border: 0;
+}
+
+#seccion > #cabecera {
+    padding: 1em 0 4em 0;
+}
+
+.registro {
+	margin-top: 10px;
+}
+
+
+.registro ul, .indice ul {
+	list-style: none;
+	margin: 0;
+}
+
+.registro > ul > li, .indice >ul > li {
+		display: inline-block;
+		padding-right: 2em;
+}
+
+.registro > ul > li > a, .indice > ul > li > a {
+	background: rgba(0,0,0,0.1);
+    width: 138px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color: #48D1CC;
+    line-height: 44px;
+    display: block;
+    text-decoration: none;
+}
+
+.indice{
+	margin-left: 75px;
+}
+
+.registro a:link, a:visited, .indice a:link, a:visited {
+		background: rgba(0,0,0,0.1);
+}
+
+.registro a:hover, .indice a:hover {
+	background: #E0FFFF;
+}
+
+.registro a:active, .indice a:active {
+	background: #B0E0E6;
+	color: #DDA0DD;
+}
+
+#menu {
+  width:100%;
+  bottom:  1em;
+  left: 0;
+  cursor: default;
+  position: absolute;
+}
+
+#menu ul  {
+  list-style: none;
+  margin: 0; 
+}
+
+#menu > ul > li {
+ display: inline-block;
+ padding-right: 1em;
+}
+
+#menu > ul > li:last-child {
+    padding-right: 25;
+}
+
+#menu  ul  li  a {
+
+    background:rgba(0,0,0,0.1);
+    width: 138px;
+    font-weight:bold;
+    font-size:1em;
+    text-align: center;
+    line-height: 44px;
+    display:block;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+  color:	#48D1CC;
+}
+
+#item-uno a {
+  border-bottom:5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-dos a {
+  border-bottom:5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-tres a {
+  border-bottom:5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-cuatro a {
+  border-bottom: 5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-cinco a {
+  border-bottom: 5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-seis a, #item-siete a {
+  border-bottom: 5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+section {
+  float: relative;
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.article {
+    width: 26.5%;
+    margin: 10px;
+    border-radius: 1em;
+    margin-bottom: 30px;
+}
+
+.article, .article2 {
+    background: rgb(216, 191, 216, 0.6); /*El ultimo valor sirve para difuminar el color*/
+    padding: 15px;
+}
+
+.article2 h1{
+  text-align: center;
+  font-family: "Sanvito", "Vegur", "PT Sans", sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  color:  black;
+  text-shadow:  black 6px 6px 8px;
+}
+
+
+.article2 p {
+  padding: : 5px;
+  text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 16px; 
+}
+
+.article2 {
+  clear: both;
+  width: 67%;
+  border-radius: 1em;
+  float: right;
+  height: 20.3rem;
+}
+
+.article img {
+  float: center; 
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.article img a:hover {
+  opacity: 0.6;
+}
+
+.lcleft > table, .lcright > table, .lccenter table, .lcleft2 table {
+  margin: 5px; 
+
+}
+
+.lcleft table tr td {
+  align-self: left;
+  text-align: center;
+  font-size: 16px;
+  font-family: verdana;
+  background: rgb(186, 85, 211, 0.4); 
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 65px; 
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.lcright table tr td {
+  align-self: right;
+  text-align: center;
+  font-size: 16px;
+  font-family: verdana;
+  background: rgb(186, 85, 211, 0.4); 
+  display: block;
+  margin-bottom: 10px;
+  margin-right:  65px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+
+footer {
+    clear: both;
+    background: rgb(216, 191, 216, 0.6);;
+    text-align: center;
+    padding: 40px;
+    border-top: 2px solid rgb(216, 191, 216, 0.9);;
+}
+
+.social  {
+  color: black;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+}
+
+.social {
+  float: center;
+  margin-left: 10px;
+}
+
+.social ul {
+    padding-top:10px;
+    margin-left:10px;
+}
+/* Se hacen flotar los elementos para que queden en línea y se elimina el estilo que se ha asignado por default*/
+.social ul li {
+    float:left;
+    list-style-type:none;
+}
+
+/* Anulamos estilo por default para enlaces en listas que es el subrayado en color azul */
+.social ul li a {
+    text-decoration:none;
+}
+
+/* Estilo de cada imagen en situación inicial*/
+.social ul li a img {
+    width: 32px; /* Ancho inicial imagénes. 50% real */
+    height:32px; /* Alto inicial imagénes. 50% real */
+    border: none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+/* Se agranda la imagen al hacer hover */
+.social ul li:hover a img {
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#pie{
+  text-align: center;
+  font-family: verdana;
+  font-size: 15px;
+    color: black;
+}

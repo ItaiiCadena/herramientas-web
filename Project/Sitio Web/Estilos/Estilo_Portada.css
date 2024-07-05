@@ -1,0 +1,168 @@
+/*Estilo establecido en todas las paginas para el titulo, el menu, las opciones de registro y
+ las imagenes enlazadas a las redes sociales*/
+
+body {
+	background-image: url(MJEB.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header, nav, hgroup {
+	display: block;
+}
+
+h1 {
+	margin: 0;
+	position: relative;
+	text-align: justify;
+	font-family: Cottonwood, Sanvito, Vegur, 'PT Sans';
+	font-style: italic;
+	font-size: 100px;
+	color: 	#48D1CC;
+	text-shadow: #B0E0E6 6px 6px 8px;
+}
+
+.registro ul {
+	list-style: none;
+	margin: 0;
+}
+
+.registro > ul > li {
+		display: inline-block;
+		padding-right: 2em;
+}
+
+.registro > ul > li > a {
+	background: rgba(0,0,0,0.4);
+    width: 138px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color: #48D1CC;
+    line-height: 44px;
+    display: block;
+    text-decoration: none;
+}
+
+.registro a:link, a:visited {
+		background: rgba(0,0,0,0.4);
+}
+
+.registro a:hover {
+	background: #E0FFFF;
+}
+
+.registro a:active {
+	background: #B0E0E6;
+	color: #DDA0DD;
+}
+
+#menu ul  {
+  list-style: none;
+  margin: 0; 
+}
+
+#menu > ul > li {
+ display: inline-block;
+ padding-right: 2em;
+}
+
+#menu > ul > li:last-child {
+    padding-right: 25;
+}
+
+#menu  ul  li  a {
+
+    background:rgba(0,0,0,0.4);
+    width: 138px;
+    font-weight:bold;
+    font-size:1em;
+    text-align: center;
+    line-height: 44px;
+    display:block;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+  color:	#48D1CC;
+}
+
+#item-uno a {
+  border-bottom:5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-dos a {
+  border-bottom:5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-tres a {
+  border-bottom:5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-cuatro a {
+  border-bottom: 5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-cinco a {
+  border-bottom: 5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+#item-seis a, #item-siete a {
+  border-bottom: 5px solid #48D1CC;
+  border-radius: 15px;
+  color: #B0E0E6;
+}
+
+.social {
+    margin: 20px auto 30px;
+    height: 80px;
+    width: 530px;
+}
+
+.social ul {
+    padding-top:10px;
+    margin-left:10px;
+}
+/* Se hacen flotar los elementos para que queden en línea y se elimina el estilo que podría haber predefinido para listas*/
+.social ul li {
+    float:left;
+    list-style-type:none;
+}
+
+/* Anulamos estilo predifinido para enlaces en listas */
+.social ul li a {
+    text-decoration:none;
+}
+/* Estilo de cada imagen en situación inicial y transición suave */
+.social ul li a img {
+    width: 32px; /* Ancho inicial imagénes. 50% real */
+    height:32px; /* Alto inicial imagénes. 50% real */
+    border: none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+/* Agrandamos la imagen al hacer hover */
+.social ul li:hover a img {
+    opacity: 0.4;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}

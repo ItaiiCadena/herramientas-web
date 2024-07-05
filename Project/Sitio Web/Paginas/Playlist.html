@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Michael Jackson, Rey del Pop, Musica, Estilo">
+	<meta name="keywords" content="HTML5, CSS3, JS, Michael Jackson, Eras, Musica, Rey del Pop">
+	<title> Remember the time? Playlist </title>
+	<link rel="icon" type="img/png" href="logomj.png">
+	<link rel="stylesheet" type="text/css" href="Estilo_Playlist.css">
+	<script type="text/javascript" src="Playlist.js"></script>
+</head>
+<body>
+	<div id="agrupar">
+		<section id="seccion">
+			<div id="cabecera">
+				<div class="registro">
+					<ul>
+						<li>
+							<a href="InicioSesion.html" target="_blank"> Iniciar sesi&oacute;n </a>
+						</li>
+						<li>
+							<a href="Registrarse.html" target="_blank"> Registrarse </a>
+						</li>
+					</ul>
+				</div>
+				<h1 id="titulo"> Remember the time? </h1>
+				<div id="menu">
+					<a name="regreso"></a>
+					<ul>
+						<li id="item-uno">
+							<a href="PaginaPortada.html"> Inicio </a>
+						</li>
+						<li id="item-dos">
+							<a href="Principal.html"> Principal </a>
+						</li>
+						<li id="item-tres">
+							<a href="Discografia.html"> Discograf&iacute;a </a>
+						</li>
+						<li id="item-cuatro">
+							<a href="Filmografia.html"> Filmograf&iacute;a </a>
+						</li>
+						<li id="item-cinco">
+							<a href="Fotos.html"> Fotos </a>
+						</li>
+						<li id="item-seis">
+							<a href="Videos.html"> Videos </a>
+						</li>
+						<li id="item-siete">
+							<a href="Musica.html"> M&uacute;sica </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="content">
+			<article class="article">
+				<header>
+                	<hgroup>
+                    	<h1> Playlist de la semana </h1><br>
+                    	<h2> Las canciones de esta semana son: </h2>
+                	</hgroup>
+            	</header><br>
+            	<article class="article2">
+            		<p>11. Michael Jackson - Break of Dawn</p>
+            		<p>12. Michael Jackson - Heaven Can Wait</p>
+            		<p>13. Michael Jackson - Leave me Alone</p>
+            		<p>14. Michael Jackson - Give in to Me</p>
+            		<p>15. Michael Jackson - In the Closet</p>
+            	</article>
+            	<article class="article2">
+            		<p>1. Michael Jackson - Remember The Time </p>
+            		<p>2. Michael Jackson - Come Together</p>
+            		<p>3. Michael Jackson - Billie Jean</p>
+            		<p>4. Michael Jackson - Butterflies</p>
+            		<p>5. Michael Jackson - Beat it</p>
+            		<p>6. Michael Jackson - P.Y.T. Pretty Young Thing</p>
+            		<p>7. The Jacksons - Blame it on the Boogie</p>
+            		<p>8. Michael Jackson - Unbreakable</p>
+            		<p>9. Michael Jacskon - Liberian Girl</p>
+            		<p>10. Michael Jackson - Chicago</p>
+            	</article>
+            	<img src="fondo.gif">
+            	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div id="reproductorBox"></div>
+				<div class="caja">
+  					<select id="selectTrack" onchange="cambiarTrack(this.options[this.selectedIndex]);">
+  						<option path="rememberthetime.mp3">Michael Jackson - Remember The Time</option>
+  						<option path="cometogether.mp3">Michael Jackson - Come Together</option>
+  						<option path="billiejean.mp3">Michael Jackson - Billie Jean</option>
+  						<option path="butterflies.mp3">Michael Jackson - Butterflies</option>
+    					<option path="beatit.mp3"> Michael Jackson - Beat It</option>
+    					<option path="pty.mp3"> Michael Jackson - P.Y.T. Pretty Young Thing</option>
+    					<option path="blameboggie.mp3">Michael Jackson - Blame It On the Boogie</option>
+    					<option path="unbreakable.mp3">Michael Jackson - Unbreakable</option>
+    					<option path="liberiangirl.mp3">Michael Jackson - Liberian Girl</option>
+    					<option path="breakofdawn.mp3">Michael Jackson - Break of Dawn</option>
+    					<option path="heavencanwait.mp3">Michael Jackson - Heaven Can Wait</option>
+    					<option path="chicago.mp3">Michael Jackson - Chicago</option>
+    					<option path="leavemealone.m4a">Michael Jackson - Leave Me Alone</option>
+    					<option path="giveintome.m4a">Michael Jackson - Give In To Me</option>
+    					<option path="inthecloset.m4a">Michael Jackson - In the Closet</option>
+  					</select>
+  					<script> cargarReproductor(); </script>
+				</div>
+            </article>
+        </section>
+		<footer>
+			<div class="social">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/michaeljackson" target="_blank"> <img src="facebook.png">&nbsp;&nbsp;</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/michaeljackson/?hl=es-la" target="_blank"> <img src="instagram.png">&nbsp;&nbsp;</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/michaeljackson" target="_blank"> <img src="gorjeo.png">&nbsp;&nbsp;</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UC5OrDvL9DscpcAstz7JnQGA" target="_blank"> <img src="youtube.png">&nbsp;&nbsp;</a>
+					</li>
+				</ul>
+				</div>
+			<p id="pie">Copyright &copy; 2020 Britany Itaii Perez Cadena. Todos los derechos reservados.</p>
+		</footer>
+	</div>
+</body>
+</html>
