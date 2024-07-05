@@ -9,7 +9,7 @@ header, section, footer, article, figure, figcaption, hgroup, aside {
 }
 
 body {
-    background-image: url(EBMJ.jpg); /*Fondo de todas las paginas*/
+    background-image: url(../Recursos/img/EBMJ.jpg); /*Fondo de todas las paginas*/
     text-align: justify-all;
     margin-top: 2em;
 }
@@ -214,7 +214,7 @@ section {
 
 
 .article2 p {
-  padding: : 5px;
+  padding: 5px;
   text-align: justify;
     color: rgb(0, 0, 0);
     font-family: verdana;
