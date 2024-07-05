@@ -8,7 +8,7 @@ header, section, footer, article, figure, figcaption, hgroup {
 }
 
 body {
-    background-image: url(EBMJ.jpg);
+    background-image: url(../Recursos/img/EBMJ.jpg);
     text-align: justify-all;
     margin-top: 2em;
 }
@@ -354,7 +354,7 @@ img.nuevaimg13 {
 }
 
 aside {
-	width: 18%
+	width: 18%;
 	text-align: center;
 	grid-area: aside;
     display: grid;

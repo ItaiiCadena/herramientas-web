@@ -8,7 +8,7 @@ header, section, footer, article, figure, figcaption, hgroup {
 }
 
 body {
-    background-image: url(EBMJ.jpg);
+    background-image: url(../Recursos/img/EBMJ.jpg);
     text-align: justify-all;
     margin-top: 2em;
 }
@@ -92,15 +92,15 @@ body {
 }
 
 
-.registro a:link, a:visited,{
+.registro a:link, a:visited {
 		background: rgba(0,0,0,0.1);
 }
 
-.registro a:hover,{
+.registro a:hover {
 	background: #E0FFFF;
 }
 
-.registro a:active, {
+.registro a:active {
 	background: #B0E0E6;
 	color: #DDA0DD;
 }

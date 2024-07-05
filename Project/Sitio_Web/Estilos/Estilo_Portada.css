@@ -2,7 +2,7 @@
  las imagenes enlazadas a las redes sociales*/
 
 body {
-	background-image: url(MJEB.jpg);
+	background-image: url(../Recursos/img/MJEB.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
