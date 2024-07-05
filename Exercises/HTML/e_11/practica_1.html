@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title> Pr&aacute;ctica 11 </title>
+</head>
+<body>
+    <body background="azul.png">
+        <font face="Microsoft Serif Sans" color="#6E2C00" size="4">
+            <form action="mailto.formularios@servidor.com" method="post" enctype="text/plain">
+                <blockquote>
+                    <b>Nombre:</b> <input type="text" name="nombre" value="" size="30" maxlength="15"> <br><br>
+                    <b>Apellidos:</b> <input type="text" name="apellidos" value="" size="40" maxlength="15"> <br><br>
+                    <b>Correo electr&oacute;nico:</b> <input type="email" name="direccionemail" placeholder="Ej.:usuario@servidor.com"> <br><br>
+                    <b>Poblaci&oacute;n:</b> <input type="text" name="poblacion" value="" size="30" maxlength="15"><br><br>
+                    <b>Provincia:</b> <input type="text" name="provincia" value="" size="30" maxlength="15"><br><br>
+                    <table align="left">
+                        <caption>
+                            <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b>Edad</b></font>
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <td><input name="edad" type="radio" value="0-20">
+                                    <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b> 0-20</b></font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input name="edad" type="radio" value="20-40">
+                                    <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b>20-40</b></font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input name="edad" type="radio" value="40-60">
+                                    <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b>40-60</b></font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input name="edad" type="radio" value="60-100">
+                                    <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b> 60-100</b></font>
+                                </td>
+                            </tr>
+                        </tbody </table>
+
+                        <table align="center">
+                            <caption>
+                                <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b>&iquest;C&oacute;mo nos
+                                        conociste?</b></font>
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td><input name="casilla" type="checkbox" value="uno">
+                                        <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b> A trav&eacute;s
+                                                de un amigo</b></font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input name="casilla" type="checkbox" value="dos">
+                                        <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b> A trav&eacute;s
+                                                de un buscador</b></font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input name="casilla" type="checkbox" value="tres">
+                                        <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b>Navegando por la
+                                                red</b></font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input name="casilla" type="checkbox" value="cuatro">
+                                        <font face="Microsoft Serif Sans" color="#6E2C00" size="4"><b>Otros</b></font>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <b>Opini&oacute;n sobre nuestra pagina web</b> <br>
+                        <textarea name="opinion" cols="40"
+                            rows="7"> Escriba aqu&iacute; su opini&oacute;n... </textarea><br><br>
+                        <b>Tiene alguna sugerencia</b><br>
+                        <textarea name="sugerencia" cols="40"
+                            rows="7"> Escriba aqu&iacute; su sugerencia... </textarea><br><br>
+                        <b> ¿Cu&aacute;nto navega por internet? (Se&ntilde;ala la opci&oacute;n que m&aacute;s se
+                            acerque) </b><br>
+                        <select name="horas" size="2" multiple>
+                            <option>2 horas al d&iacute;a </option>
+                            <option>4 horas al d&iacute;a </option>
+                            <option>6 horas al d&iacute;a </option>
+                        </select>
+                </blockquote>
+                <table align="center">
+                    <tr>
+                        <td><input name="boton" type="submit" value="Enviar formulario"></td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td><input name="boton" type="reset" value="Borrar formulario"></td>
+                    </tr>
+                </table>
+            </form>
+        </font>
+    </body>
+</html>

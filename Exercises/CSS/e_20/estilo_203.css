@@ -1,0 +1,11 @@
+body {
+	background-image: url(frosa.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	/*background-position: 350px 5px;*/
+	background-attachment: fixed;
+}
+
+body {
+	background: #F9E0D6 url(frosa.jpg) no-repeat right top fixed;
+}

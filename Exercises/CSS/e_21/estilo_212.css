@@ -1,0 +1,51 @@
+#bimage {
+	border: 20px solid;
+	border-image: url(https://www.w3schools.com/css/border.png) 30 round;
+	border-image-width: 16px;
+	padding: 40px;
+}
+
+#bordereds {
+	width: 12rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 40px solid;
+	border-image: url(https://www.w3schools.com/css/border.png) 27;
+	border-image-repeat: stretch;
+}
+
+#borderedr {
+	width: 12rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 40px solid;
+	border-image: url(https://www.w3schools.com/css/border.png) 27;
+	border-image-repeat: repeat;
+}
+
+#borderedrr {
+	width: 12rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 40px solid;
+	border-image: url(https://www.w3schools.com/css/border.png) 27;
+	border-image-repeat: round;
+}
+
+#borderedss {
+	width: 12rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 40px solid;
+	border-image: url(https://www.w3schools.com/css/border.png) 27;
+	border-image-repeat: space;
+}
+
+#borderedsr {
+	width: 12rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 40px solid;
+	border-image: url(https://www.w3schools.com/css/border.png) 27;
+	border-image-repeat: stretch repeat;
+}

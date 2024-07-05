@@ -1,0 +1,6 @@
+body {
+	background-image: url(lacreacion.png), url(ciudadpn.png), url(prueba2.jpg);
+	background-position: top center, bottom 1000%, left top;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-size: cover, cover, cover;
+}

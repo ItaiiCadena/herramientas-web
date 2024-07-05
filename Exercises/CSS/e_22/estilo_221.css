@@ -1,0 +1,6 @@
+#example1 {
+	background-image: url(fondo.png), url(azul.png);
+	background-position: right bottom, left top;
+	background-repeat: no-repeat, repeat;
+	padding: 15px;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+
+p:nth-child(2) {
+    background: #999999;
+}
+
+p:nth-child(odd) {
+    background: #999999;
+}
+
+p:nth-child(even) {
+    background: #CCCCCC;
+}
+
+p:first-child {
+    background: red;
+}
+
+p:last-child {
+    background: blue;
+}
+
+p:only-child {
+    background: green;
+}
+
+p:not(.classy) {
+    color: red;
+}
+
+body :not(p) {
+    color: green;
+}
+
+div>p.miestilo2 {
+    color: #990000;
+}
+
+p.miestilo2+p {
+    color: #990000;
+}
+
+p.miestilo2~p {
+    color: #990000;
+}

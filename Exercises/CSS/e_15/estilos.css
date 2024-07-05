@@ -1,0 +1,48 @@
+p{
+	font-size: 20px;
+}
+
+p#articulo{
+	font-size: 25px;
+}
+
+p#aside{
+	color: red;
+}
+
+/*Para cualquier etiqueta que tenga la especificacion class*/
+.principal{
+	font-size: 25px;
+}
+
+.aside{
+	font-size: 20px;
+	color: blue;
+}
+
+/*Solo para las etiquetas <p></p> que tengan la especificacion class*/
+p.principal{
+	font-size: 25px;
+}
+
+p.aside{
+	color: green;
+}
+
+/*Referencia por cualquier otro atributo*/
+p[name="especial"]{
+	font-size: 25px;
+	color: violet;
+}
+
+p[name*="mi"]{
+	font-size: 60px;
+}
+
+p[name^="mi"]{
+	font-size: 20px;
+}
+
+p[name$="mi"]{
+	font-size: 40px;
+}

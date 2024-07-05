@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Pr&aacute;ctica 14 </title>
+</head>
+
+<body>
+    <section id="Principal">
+        <p> <time datetime="2013-11-01"> Halloween </time> </p>
+        <p> Reuni&oacute;n familiar <time datetime="2013-12-25"> Navidad </time> a las <time> 10:00 </time> hrs. </p>
+    </section>
+    <details>
+        <summary> Buscadores </summary>
+        <ul>
+            <li><a href="http://www.google.es"> Google </a></li>
+            <li><a href="http://www.bing.es"> Bing </a></li>
+        </ul>
+    </details>
+    <audio controls autoplay loop muted>
+        <!--Para probar esta parte de la página necesitas descargar archivos en los formatos indicados a continuación-->
+        <!--
+            .mp3
+            .wav
+            .ogg
+            .mp4
+        -->
+        <source src="chicago-audio.mp3" type="audio/mp3">
+        <source src="haven-can.wav" type="audio/wav">
+        <source src="remember-the-time-o.ogg" type="audio/ogg">
+        El navegador NO soporta el audio.
+    </audio>
+    <audio preload="none">
+        <source src="haven-can.wav" type="audio/webm">
+        <source src="remember-the-time-o.ogg" type="audio/ogg">
+        El navegador NO soporta el audio.
+    </audio>
+    <video width="320" height="240" control poster="mariposa.png">
+        <source src="Marco Mares - No Sé Decirte No (Video Oficial) VDownloader.mp4" type="video/mp4">
+        Tu navegador no soporta HTML5 video.
+    </video>
+</body>
+
+</html>

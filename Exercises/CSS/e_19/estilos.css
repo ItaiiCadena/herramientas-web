@@ -1,0 +1,117 @@
+/*Poner texto del parrafo en negritas*/
+p {
+	font-weight: bold;
+}
+
+/*Dos veces mas grande que la normal, pero poco menos que la negrita standard*/
+div {
+	font-weight: 600;
+}
+
+/*Un poco mas clara que el padre*/
+span {
+	font-weight: lighter;
+}
+
+/*Dimensiones o tamanios absolutos de las letras*/
+.xx-grande {
+	font-size: xx-large;
+}
+
+.x-grande {
+	font-size: x-large;
+}
+
+.grande {
+	font-size: large;
+}
+
+.mediana {
+	font-size: medium;
+}
+
+.peque {
+	font-size: small;
+}
+
+.x-peque {
+	font-size: x-small;
+}
+
+.xx-peque {
+	font-size: xx-small;
+}
+
+/*Uso de smaller con respecto al div padre en el span hijo*/
+div {
+	font-size: xx-large;
+}
+
+span {
+	font-size: smaller;
+}
+
+/*Si no puede establecer la primera probara la segunda y asi sucesivamente*/
+body {
+	font-family: Arial, Helvetica, Verdana;
+}
+
+p {
+	font-family: Georgia, Canbria, Times;
+}
+
+h1.Tomato {
+	background-color: Tomato;
+}
+
+h1.Orange {
+	background-color: Orange;
+}
+
+h1.Gray {
+	background-color: Gray;
+}
+
+h1.DodgerBlue {
+	background-color: Dodgerblue;
+}
+
+h1.MediumSeaGreen {
+	background-color: MediumSeaGreen;
+}
+
+h1.SlateBlue {
+	background-color: SlateBlue;
+}
+
+h1.Violet {
+	background-color: Violet;
+}
+
+h1.LightGray {
+	background-color: LightGray;
+}
+
+h1 {
+	color: Tomato;
+}
+
+p.DodgerBlue{
+	color: DodgerBlue;
+}
+
+p.MediumSeaGreen{
+	color: MediumSeaGreen;
+}
+
+.Tomatos{
+	border: 2px solid Tomato;
+}
+
+.DodgerBlues{
+	border: 2px solid Dodgerblue;
+}
+
+.Violets{
+	border: 2px solid Violet;
+}

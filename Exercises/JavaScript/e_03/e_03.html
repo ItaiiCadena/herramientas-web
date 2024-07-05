@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function mostrar()
+		{
+			var nom = document.getElementById('nombre').value;
+			var ed = document.getElementById('edad').value;
+			alert('Ingreso el nombre: ' + nom);
+			alert('Y la edad: ' + ed);
+		}
+	</script>
+	<form>
+		Ingresa tu nombre: 
+		<input type="text" id="nombre"><br>
+		Ingresa tu edad:
+		<input type="text" id="edad"><br>
+		<input type="button" value="Confirmar" onclick="mostrar()">
+	</form>
+</body>
+</html>
